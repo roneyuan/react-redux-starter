@@ -35,13 +35,7 @@
     "build:img": "run-s clean:img mkdir:img _build:img",
     "_build:img": "cpr img build/img",
     "watch:img": "run-s build:img _watch:img",
-    "_watch:img": "chokidar img/**/* -c \"npm run build:img\"",    
-    "mkdir:assets": "run-s mkdir",
-    "clean:assets": "rimraf build/assets",
-    "build:assets": "run-s clean:assets mkdir:assets _build:assets",
-    "_build:assets": "cpr assets build/assets",
-    "watch:assets": "run-s build:assets _watch:assets",
-    "_watch:assets": "chokidar assets/**/* -c \"npm run build:assets\""
+    "_watch:img": "chokidar img/**/* -c \"npm run build:img\""
   },
   "author": "Sung-Yuan (Thomas) Chen, Joe Turner <joe@oampo.co.uk>",
   "license": "",
