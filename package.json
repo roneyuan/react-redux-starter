@@ -43,7 +43,7 @@
     "watch:assets": "run-s build:assets _watch:assets",
     "_watch:assets": "chokidar assets/**/* -c \"npm run build:assets\""
   },
-  "author": "Sung-Yuan (Thomas) Chen",
+  "author": "Sung-Yuan (Thomas) Chen, Joe Turner <joe@oampo.co.uk>",
   "license": "",
   "devDependencies": {
     "babel-cli": "^6.11.4",
